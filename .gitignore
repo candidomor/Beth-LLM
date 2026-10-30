@@ -1,0 +1,67 @@
+# ==============================================================================
+# Dados Clínicos e Arquivos Brutos (Restrição PhysioNet / MIMIC-IV-Note)
+# Os autores e o PhysioNet exigem que os dados brutos e derivados não sejam distribuídos publicamente.
+# ==============================================================================
+*.csv.gz
+*.gz
+*.db
+*.sqlite
+*.sqlite3
+data/*.csv.gz
+data/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes Virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit (manter config.toml, ignorar credenciais/segredos)
+.streamlit/secrets.toml
+
+# LaTeX - Arquivos temporários de compilação
+*.aux
+*.log
+*.bbl
+*.blg
+*.dvi
+*.out
+*.toc
+*.synctex.gz
+
+# IDEs e Sistema Operacional
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
